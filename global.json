@@ -1,0 +1,8 @@
+{
+  "sdk": {
+    "version": "7.0.100-rc.2.22477.23"
+  },
+  "scripts" : {
+    "start" : "dotnet build --configuration Release && dotnet serve -d:bin/Release/net7.0/browser-wasm/AppBundle -p 8080 -S"
+  }
+}
